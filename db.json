@@ -1,0 +1,88 @@
+{
+  "recipes": [
+    {
+      "id": "1f453220-ffe6-4ea8-8d68-cd2979fd1117",
+      "name": "NewRecipe",
+      "instruction": "just make it",
+      "ingredients": [
+        "dasda",
+        "Kochany"
+      ]
+    },
+    {
+      "id": "3dd5c3ce-2732-4253-998a-735c9d94e282",
+      "name": "Mahbub-Cake",
+      "instruction": "just Mahbub it.",
+      "ingredients": [
+        "Mahbub",
+        "sadsd"
+      ]
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Pancakes",
+      "instruction": "Mix ingredients and cook on a griddle.",
+      "ingredients": [
+        "Flour",
+        "Eggs",
+        "Milk",
+        "Sugar",
+        "Baking Powder"
+      ]
+    },
+    {
+      "id": "b2c3d4e5-f678-90ab-cdef-1234567890ab",
+      "name": "Spaghetti Bolognese",
+      "instruction": "Cook pasta and prepare meat sauce.",
+      "ingredients": [
+        "Spaghetti",
+        "Ground Beef",
+        "Tomato Sauce",
+        "Onion",
+        "Garlic"
+      ]
+    },
+    {
+      "id": "c3d4e5f6-7890-abcd-ef12-34567890abcd",
+      "name": "Caesar Salad",
+      "instruction": "Toss lettuce with dressing and toppings.",
+      "ingredients": [
+        "Romaine Lettuce",
+        "Caesar Dressing",
+        "Croutons",
+        "Parmesan Cheese"
+      ]
+    },
+    {
+      "id": "d4e5f678-90ab-cdef-1234-567890abcdef",
+      "name": "Chicken Curry",
+      "instruction": "Cook chicken with spices and coconut milk.",
+      "ingredients": [
+        "Chicken",
+        "Curry Powder",
+        "Coconut Milk",
+        "Onion",
+        "Garlic"
+      ]
+    },
+    {
+      "id": "3a4d2798-016c-42d5-b261-8f70d6f5e11d",
+      "name": "Ruski",
+      "instruction": "das\ndsa\ndsa\n",
+      "ingredients": [
+        "cheese",
+        "bread"
+      ]
+    },
+    {
+      "id": "45f630ee-a9ec-40ca-8366-a18f0f8a2872",
+      "name": "PolishYuumyFood",
+      "instruction": "Ask to Polish Women",
+      "ingredients": [
+        "Polish ingrediets1",
+        "Polish ingrediets2",
+        "Polish ingrediets3"
+      ]
+    }
+  ]
+}
