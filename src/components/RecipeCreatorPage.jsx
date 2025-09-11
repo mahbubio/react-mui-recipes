@@ -18,17 +18,6 @@ const RecipeCreatorPage = () => {
   };
 
   return <RecipeForm onChange={handleAddRecipe} isEdit={false} />;
-
-  // {/* <Button
-  //   color="secondary"
-  //   variant="contained"
-  //   sx={{ mt: 2, mb: 4 }}
-  //   justifyContent="flex-start"
-  //   startIcon={<ArrowBackIcon />}
-  //   onClick={handleGoBack}
-  // >
-  //   Go back
-  // </Button> */}
 };
 
 export default RecipeCreatorPage;

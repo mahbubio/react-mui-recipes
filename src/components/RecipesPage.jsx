@@ -2,15 +2,7 @@ import { useEffect } from "react";
 import useRecipes from "../hooks/useRecipes";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../utilities/constants";
-import {
-  Box,
-  Button,
-  Grid,
-  List,
-  ListItem,
-  Paper,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import { style } from "/styles/RecipesPage.style";
@@ -27,17 +19,17 @@ const RecipesPage = () => {
   const handleGoToCreator = () => navigate(ROUTES.RECIPES_ADD);
 
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <Box sx={style.container}>
-        <Button
+        {/* <Button
           variant="contained"
           color="success"
           startIcon={<MenuBookIcon />}
           onClick={handleGoToCreator}
           sx={style.addRecipeButton}
         >
-          Add recipe
-        </Button>
+          Add recipepe
+        </Button> */}
         <Box component="section" sx={{ p: 2 }}>
           <Grid container spacing={2} justifyContent="center">
             {recipes?.map((recipe) => (
@@ -50,7 +42,9 @@ const RecipesPage = () => {
                     src="https://www.everyday-delicious.com/wp-content/uploads/2024/02/pierogi-ruskie-everyday-delicious-5-500x375.jpg"
                   />
 
-                  <Typography>{recipe.name}</Typography>
+                  <Typography variant="h6" gutterBottom>
+                    {recipe.name}
+                  </Typography>
                   <Button
                     startIcon={<EditIcon sx={style.editButtonIcon} />}
                     size="small"

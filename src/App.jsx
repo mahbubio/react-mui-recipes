@@ -3,16 +3,27 @@ import RecipesPage from "./components/RecipesPage";
 import RecipeEditorPage from "./components/RecipeEditorPage";
 import RecipeCreatorPage from "./components/RecipeCreatorPage";
 import { APP_TITLE, ROUTES } from "./utilities/constants";
-import { Typography, Box, CssBaseline } from "@mui/material";
-import Header from "./components/Header";
+import { Typography, Box, CssBaseline, Button } from "@mui/material";
+import Navbar from "./components/Navbar";
+// import { ThemeProvider, useThemeContext } from "./contexts/ThemeContext";
+import {
+  ThemeProvider,
+  createTheme,
+  useColorScheme,
+} from "@mui/material/styles";
 
 const App = () => {
+  //const { color, dispatch } = useThemeContext();
+  const { mode, setMode } = useColorScheme();
+  if (!mode) return null;
+
+  console.log(mode);
+
   return (
     <BrowserRouter>
-      {/* material overwrite so we use it */}
-      <CssBaseline />
-      <Header />
-
+      <Navbar
+        handleModeChange={() => setMode(mode === "light" ? "dark" : "light")}
+      />
       <main>
         <Routes>
           <Route
@@ -28,4 +39,17 @@ const App = () => {
   );
 };
 
-export default App;
+const Wrapper = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
+  );
+};
+const theme = createTheme({
+  colorSchemes: {
+    dark: true,
+  },
+});
+export default Wrapper;

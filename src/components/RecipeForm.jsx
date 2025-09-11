@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-// import Input from "@mui/material/Input";
-// import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import { Chip, TextField, Box } from "@mui/material";
 import SaveIcon from "@mui/icons-material/Save";
@@ -162,16 +160,6 @@ const RecipeForm = ({ selectedRecipe, onChange, onDelete, isEdit }) => {
                 Save
               </Button>
             </Box>
-            {/* moved ingredients list to top of field */}
-            {/* <div>
-            {updatedRecipe?.ingredients?.map((ing) => (
-              <Chip
-                key={ing}
-                label={ing}
-                onClick={() => handleRemoveIngredient(ing)}
-              />
-            ))}
-          </div> */}
           </Box>
         </Box>
       </Box>

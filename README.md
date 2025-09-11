@@ -1,6 +1,6 @@
 ## TODO
 
-1. Add nice styling to the components - Mahbub
+1. Add nice styling to the components
 2. Fix improvements TODOS.
 3. Solve API requests functions
 4. Add react-testing-library tests
@@ -21,4 +21,18 @@ test
 
 # Demo images
 
-![demo](./image.png)
+### Recipe Page/ Light Mode
+
+![demo](./image1.png)
+
+### Recipe Adding Page
+
+![demo](./image2.png)
+
+### Recipe Editing Page
+
+![demo](./image3.png)
+
+### Dark Mode
+
+![demo](./image4.png)

@@ -1,6 +1,5 @@
 export const style = {
   header: {
-    bgcolor: "#002984",
     color: "#ece3e3ff",
     display: "flex",
     p: "1em",
@@ -9,5 +8,14 @@ export const style = {
     "&:hover": {
       cursor: "pointer",
     },
+  },
+  appName: {},
+  appIcon: { fontSize: 35 },
+  navAddRecipe: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    flexGrow: 1,
+    mr: 2,
   },
 };

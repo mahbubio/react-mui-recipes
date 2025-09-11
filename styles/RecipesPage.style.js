@@ -4,7 +4,7 @@ export const style = {
     justifyContent: "flex-start",
     flexDirection: "column",
     alignItems: "center",
-    mt: 3,
+    mt: 7,
     p: "2em",
   },
   recipeCard: {
@@ -16,6 +16,8 @@ export const style = {
     alignItems: "center",
     textAlign: "center",
     boxShadow: 3,
+    border: "4px solid white",
+    borderRadius: "2px",
     //animation
     transition: "all 0.3s ease-in-out",
     "&:hover": {

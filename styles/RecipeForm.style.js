@@ -5,6 +5,7 @@ export const style = {
     width: "50vw",
     marginLeft: "auto",
     marginRight: "auto",
+    mt: 9,
   },
   instructionBox: {
     mb: 2,
